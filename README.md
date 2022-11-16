@@ -8,33 +8,12 @@
 
 ### **[<kbd> <br> &nbsp; **Click to Visit WebPage** &nbsp; <br> </kbd>][site]**
 
-## Building from Source
-
-</div>
-
-- Fetch latest source code from master branch.
-
-```console
-rajput-hemant@arch:~$ git clone https://github.com/rajput-hemant/food-order-app
-```
-
-- Run the app with VS Code or the command line:
-
-```console
-rajput-hemant@arch:~$ cd food-order-app
-rajput-hemant@arch:~/food-order-app$ npm install
-rajput-hemant@arch:~/food-order-app$ npm start
-```
-
-<div align = center>
-
 ## Directory Structure
 
 </div>
 
 ```
 src
-|-- App.jsx
 |
 |-- assets
 |   `-- meals.jpg
@@ -46,7 +25,9 @@ src
 |   |   |-- Cart.module.css
 |   |   |-- CartIcon.jsx
 |   |   |-- CartItem.jsx
-|   |   `-- CartItem.module.css
+|   |   |-- CartItem.module.css
+|   |   |-- Checkout.jsx
+|   |   `-- Checkout.module.css
 |   |
 |   |-- Layout
 |   |   |-- Header.jsx
@@ -78,10 +59,32 @@ src
 |
 |-- store
 |   |-- CartContext.js
-|   `-- CartProvider.js
-|
+|   `-- CartProvider.jsx
+|    
+|-- App.jsx
 |-- index.css
 `-- index.js
+
+```
+
+<div align = center>
+
+## Building from Source
+
+</div>
+
+- Fetch latest source code from master branch.
+
+```console
+rajput-hemant@arch:~$ git clone https://github.com/rajput-hemant/food-order-app
+```
+
+- Run the app with VS Code or the command line:
+
+```console
+rajput-hemant@arch:~$ cd food-order-app
+rajput-hemant@arch:~/food-order-app$ npm install
+rajput-hemant@arch:~/food-order-app$ npm start
 ```
 
 <div align = center>
